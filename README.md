@@ -1,3 +1,6 @@
+此项目在原项目基础上进行了修改。
+以下为原项目内容，仅供参考。
+
 # FedReID
 Code for ACMMM 2020 oral paper - **[Performance Optimization for Federated Person Re-identification via Benchmark Analysis](https://dl.acm.org/doi/10.1145/3394171.3413814)**
 
