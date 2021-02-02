@@ -2,7 +2,7 @@ import numpy as np
 from argparse import ArgumentParser
 import os
 import os.path as osp
-from utils import write_list, mkdir, read_json
+from data_preprocess.utils import write_list, mkdir, read_json
 
 
 def _get_list(images):
@@ -125,7 +125,7 @@ def run(args):
 def preprocess_all_small_datasets(args):
     # datasets = ['3dpes', 'cuhk01', 'cuhk02', 'ilids', 'prid', 'viper']
     # datasets = ['3dpes', 'cuhk01', 'ilids', 'prid', 'viper']
-    datasets = ['cuhk01']
+    datasets = ['cuhk01', 'viper']
     for i in datasets:
         args.dataset_dir = 'data/' + i
         args.output_dir = 'data/' + i
