@@ -125,7 +125,8 @@ def run(args):
 def preprocess_all_small_datasets(args):
     # datasets = ['3dpes', 'cuhk01', 'cuhk02', 'ilids', 'prid', 'viper']
     # datasets = ['3dpes', 'cuhk01', 'ilids', 'prid', 'viper']
-    datasets = ['cuhk01', 'viper']
+    # datasets = ['cuhk01', 'viper']
+    datasets = ['AHU']
     for i in datasets:
         args.dataset_dir = 'data/' + i
         args.output_dir = 'data/' + i

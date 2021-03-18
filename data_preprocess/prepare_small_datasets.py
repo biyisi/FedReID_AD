@@ -8,7 +8,8 @@ def prepare_all_small_datasets(args):
 
     # for dataset in ['3dpes', 'cuhk01', 'cuhk02', 'ilids', 'prid', 'viper']:
     # for dataset in ['3dpes', 'cuhk01', 'ilids', 'prid', 'viper']:
-    for dataset in ['cuhk01', 'viper']:
+    # for dataset in ['cuhk01', 'viper']:
+    for dataset in ['AHU']:
         
         os.mkdir('data/'+dataset+'/pytorch')
 
